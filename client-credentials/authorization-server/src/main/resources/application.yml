@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+
+authentication:
+  provider-URI: "http://localhost:${server.port}"
+  jks:
+    keypass: 123456
+    storepass: 123456
+    alias: awblog
+    path: keystore/awblog.jks
+
